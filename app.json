@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "SkyWatch",
+    "slug": "skywatch-weather",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {"backgroundColor":"#101C3A"},
+    "assetBundlePatterns": ["**/*"],
+    "ios": {"supportsTablet": true, "infoPlist": {"NSLocationWhenInUseUsageDescription":"SkyWatch uses your location to show local weather."}},
+    "android": {"package":"com.codeanova.skywatch", "permissions":["ACCESS_COARSE_LOCATION","ACCESS_FINE_LOCATION"]},
+    "plugins": [["expo-location", {"locationWhenInUsePermission":"Allow SkyWatch to use your location to show local weather."}]
+    ]
+  }
+}
